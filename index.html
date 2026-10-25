@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Living Archive — Steffi Widjajanto</title>
+  <meta name="description" content="An ongoing documentation of research, experimentation, and creative development.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home" data-root="">
+
+  <header class="site-header">
+    <nav class="site-nav shell" aria-label="Main">
+      <a class="meta u" href="index.html" data-nav="home">Steffi Widjajanto</a>
+      <ul class="meta">
+        <li><a class="u" href="archive.html" data-nav="archive">Archive</a></li>
+        <li class="slash" aria-hidden="true">/</li>
+        <li><a class="u" href="projects.html" data-nav="projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section class="intro">
+      <div>
+        <h1 class="display">Living Archive.</h1>
+        <p class="tagline">Thesis 01</p>
+      </div>
+      <!-- filled in automatically from js/weeks.js -->
+      <div class="progress" id="progress"></div>
+    </section>
+
+    <section class="track-section" aria-label="Thesis timeline">
+      <!-- the racetrack is drawn here by js/racetrack.js -->
+      <div class="track-frame" id="racetrack"></div>
+
+      <div class="track-caption">
+        <p class="meta">Circuit of the Americas — Austin, Texas · 5.513 km · 20 turns</p>
+        <ul class="legend meta" aria-label="Legend">
+          <li><i></i>Completed</li>
+          <li><i class="up"></i>Upcoming</li>
+          <li><i class="cur"></i>Current</li>
+        </ul>
+      </div>
+
+      <div class="entries">
+        <p class="meta muted" style="margin-bottom:.75rem">Entries</p>
+        <ol id="entries-list"></ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <p class="meta">© <span class="year">2026</span> Steffi Widjajanto</p>
+    <p class="meta">Living Archive</p>
+  </footer>
+
+  <script src="js/weeks.js"></script>
+  <script src="js/site.js"></script>
+  <script src="js/racetrack.js"></script>
+</body>
+</html>
