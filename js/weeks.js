@@ -1,22 +1,3 @@
-/* ==========================================================================
-   YOUR WEEKS — this is the only list you need to update.
-   ---------------------------------------------------------------------------
-   Each week = one block below + one page in the /weeks folder.
-
-   To publish a new week, copy the last block, paste it underneath
-   (keep the comma between blocks!) and change the details.
-
-   As soon as a week is in this list:
-     • its grandstand on the racetrack lights up and links to its page
-     • the car drives all the way to it
-     • it appears at the top of the Archive
-     • "Week 07 / 16" updates
-     • previous / next links update
-
-   slug   = the file name of the page in /weeks, without .html
-   cover  = image shown in the Archive list (path from the main folder)
-   ========================================================================== */
-
 window.LIVING_ARCHIVE = {
   totalWeeks: 16,
 
