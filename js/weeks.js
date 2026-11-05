@@ -100,6 +100,26 @@ window.LIVING_ARCHIVE = {
       slug: "week-09",
       summary: "Final revisions of Prototype 01 and initial ideation of Prototype 02.",
       cover: "media/projects/prototype-01/Cover.png"
-    }
+    },
+
+    {
+      week: 10,
+      title: "Prototype 02 Progress",
+      date: "30 Oct 2026",
+      slug: "week-10",
+      summary: "Work on draft for Prototype 02.",
+      cover: "media/weeks/week-10/cover.png"
+    },
+
+    {
+      week: 11,
+      title: "Thesis Exchange 02",
+      date: "06 Nov 2026",
+      slug: "week-11",
+      summary: "Presenting Prototype 02 with students from other sections.",
+      cover: "media/weeks/week-11/cover.png"
+    },
+
+
   ]
 };
