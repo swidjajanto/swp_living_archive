@@ -101,6 +101,15 @@ window.LIVING_ARCHIVE = {
       cover: "media/weeks/week-11/cover.png"
     },
 
+    {
+      week: 12,
+      title: "Prototype 02 Progress",
+      date: "13 Nov 2026",
+      slug: "week-12",
+      summary: "Work in progress of Prototype 02.",
+      cover: "media/weeks/week-11/cover.png"
+    },
+
 
   ]
 };
